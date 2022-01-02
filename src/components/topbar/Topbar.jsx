@@ -8,6 +8,7 @@ import {
 } from "@material-ui/core";
 import { useState } from "react";
 import MenuIcon from "@material-ui/icons/Menu";
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
   menuIcon: {
@@ -47,7 +48,11 @@ const useStyles = makeStyles((theme) => ({
   },
   drawerList: {
     padding: "5px",
-    fontFamily:  "Zen Maru Gothic, sans-serif",
+    fontFamily: "Zen Maru Gothic, sans-serif",
+  },
+  link: {
+    textDecoration: "none",
+    color: "inherit",
   },
 }));
 
@@ -71,10 +76,14 @@ export default function Topbar() {
           </Typography>
           <div className={classes.item}>
             <Typography variant="h6" className={classes.list}>
-              Home
+              <Link className={classes.link} to="/">
+                Home
+              </Link>
             </Typography>
             <Typography variant="h6" className={classes.list}>
-              About
+              <Link className={classes.link} to="/about">
+                About
+              </Link>
             </Typography>
             <Typography variant="h6" className={classes.list}>
               Faculty
@@ -96,10 +105,14 @@ export default function Topbar() {
         >
           <div className={classes.drawerLogo}>
             <Typography variant="h6" className={classes.drawerList}>
-              Home
+              <Link className={classes.link} to="/">
+                Home
+              </Link>
             </Typography>
             <Typography variant="h6" className={classes.drawerList}>
-              About
+              <Link className={classes.link} to="/about">
+                About
+              </Link>
             </Typography>
             <Typography variant="h6" className={classes.drawerList}>
               Faculty

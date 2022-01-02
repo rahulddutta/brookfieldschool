@@ -131,7 +131,7 @@ const useStyles = makeStyles((theme) => ({
     height: 600,
     backgroundColor: "#0094a4",
     [theme.breakpoints.down("xs")]: {
-      height: 300,
+      height: 350,
     },
   },
   addText: {
@@ -167,7 +167,7 @@ const useStyles = makeStyles((theme) => ({
     objectFit: "cover",
   },
   mobile2: {
-    height: 300,
+    height: 350,
     backgroundColor: "#003e53",
   },
   programs: {
@@ -346,7 +346,7 @@ export default function Homepage() {
             Admission{" "}
             <span className={classes.span1}>
               {" "}
-              Admisson for Nursery and KG Classes will begin from January 2022.
+              Admisson for Nursery will begin from January 2022. Parents are requested to fill in the details with caution.
               It is to be noted that admission is given on first come first
               served basis.
             </span>{" "}
