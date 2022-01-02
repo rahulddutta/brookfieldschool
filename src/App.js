@@ -1,6 +1,5 @@
 import Topbar from "./components/topbar/Topbar";
 import Homepage from "./components/pages/homepage/Homepage";
-import About from "./components/pages/about/About";
 
 
 function App() {
@@ -8,7 +7,7 @@ function App() {
     <>
     <div className="App">
     <Topbar/>
-    <About/>
+    <Homepage/>
     </div>
     </>
   );
