@@ -78,7 +78,7 @@ const useStyles = makeStyles((theme) => ({
     height: 1150,
     backgroundColor: "#b0cbe1",
     [theme.breakpoints.down("sm")]: {
-      height: 800,
+      height: 1100,
     },
   },
   containImg: {
@@ -113,15 +113,18 @@ const useStyles = makeStyles((theme) => ({
     lineHeight: "25px",
   },
   contain2: {
-    height: 50,
+    height: 1150,
     backgroundColor: "#8bcbf4",
     [theme.breakpoints.down("sm")]: {
-      height: 800,
+      height: 1100,
     },
   },
   value: {
     backgroundColor: "#e4f9ff",
     height: 800,
+    [theme.breakpoints.down("sm")]: {
+      height: 350,
+    },
   },
   valueText: {
     margin: "100px 0px 50px 100px",
