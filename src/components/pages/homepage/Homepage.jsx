@@ -14,6 +14,7 @@ import Academy from "../../icons/academy.png";
 import Teacher from "../../icons/teacher.png";
 import Footer from "../../Footer/Footer";
 import Info from "../../info/Info";
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
   safety: {
@@ -292,6 +293,27 @@ const useStyles = makeStyles((theme) => ({
       fontSize: "20px",
     },
   },
+  blank: {
+    height: 600,
+    backgroundColor: "#0094a4",
+    [theme.breakpoints.down("xs")]: {
+      height:350
+    },
+  },
+  newsTex: {
+    marginTop: "70px",
+    marginLeft: "40px",
+    width: "80%",
+    fontSize: "45px",
+    color: "white",
+    fontFamily: "Merriweather, serif",
+    display: "flex",
+    flexDirection: "column",
+    [theme.breakpoints.down("xs")]: {
+      fontSize: "25px",
+      marginTop:"50px"
+    },
+  },
 }));
 
 export default function Homepage() {
@@ -346,9 +368,9 @@ export default function Homepage() {
             Admission{" "}
             <span className={classes.span1}>
               {" "}
-              Admisson for Nursery will begin from January 2022. Parents are requested to fill in the details with caution.
-              It is to be noted that admission is given on first come first
-              served basis.
+              Admisson for Nursery will start on January 10 2022. Parents are
+              requested to fill in the details with caution. It is to be noted
+              that admission is given on first come first served basis.
             </span>{" "}
             <a className={classes.addSpan2} href="www.google.com">
               Enroll Today
@@ -429,7 +451,7 @@ export default function Homepage() {
             For the Parents
             <span className={classes.span1}>
               Please look into the code of conduct of the school that should be
-              followed by your ward at all the times.
+              followed by your ward at all times.
             </span>
             <a className={classes.addSpan2} href="www.google.com">
               Get Informed
@@ -439,7 +461,19 @@ export default function Homepage() {
         <Grid item sm={4} xs={12} className={classes.programs}>
           <img className={classes.programImg} src={Parent} alt="" />
         </Grid>
-        <Grid item sm={4} xs={12} className={classes.blank}></Grid>
+        <Grid item sm={4} xs={12} className={classes.blank}>
+          <div data-aos="fade-right" className={classes.newsTex}>
+            Gallery
+            <span className={classes.span1}>
+              Feel free to peek through our gallery. The photos here belong to
+              the Brookfield community and any wrongdoing using these photos is
+              a punishable offence.
+            </span>
+            <Link to="/photos" className={classes.addSpan2} href="www.google.com">
+              See Photos
+            </Link>{" "}
+          </div>
+        </Grid>
       </Grid>
       <Grid container className={classes.mobile}>
         <Grid item xs={12} className={classes.learnMobile}>
@@ -475,7 +509,7 @@ export default function Homepage() {
         <Grid item sm={4} xs={12} className={classes.logoImg}>
           <img className={classes.hourIcon} src={Academy} alt="" />
           <div data-aos="fade-up" className={classes.hourText}>
-            300
+            140
           </div>
           <div data-aos="fade-up" className={classes.hourText2}>
             HSLC pass out with distinction and star marks
