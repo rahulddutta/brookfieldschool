@@ -78,7 +78,7 @@ const useStyles = makeStyles((theme) => ({
     height: 1150,
     backgroundColor: "#b0cbe1",
     [theme.breakpoints.down("sm")]: {
-      height: 1200,
+      height: 1250,
     },
   },
   containImg: {
@@ -116,7 +116,7 @@ const useStyles = makeStyles((theme) => ({
     height: 1150,
     backgroundColor: "#8bcbf4",
     [theme.breakpoints.down("sm")]: {
-      height: 1150,
+      height: 1250,
     },
   },
   value: {
@@ -193,7 +193,7 @@ export default function About() {
         </Grid>
         <Grid item sm={6} xs={12} className={classes.mobileChild}>
           <div className={classes.head}>
-            About <span className={classes.spanHead}>Our School</span>
+            <span className={classes.spanHead}>Our School</span>
           </div>
           <div className={classes.info}>
             BROOKFIELD SCHOOL was established in January 1998 with 14 children
