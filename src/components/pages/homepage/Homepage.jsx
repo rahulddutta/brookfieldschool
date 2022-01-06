@@ -273,8 +273,11 @@ const useStyles = makeStyles((theme) => ({
   },
   hourIcon: {
     width: "150px",
+    height:"150px",
+    objectFit:"cover",
     [theme.breakpoints.down("xs")]: {
       width: "100px",
+      height:"100px"
     },
   },
   hourText: {

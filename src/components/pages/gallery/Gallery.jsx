@@ -20,7 +20,7 @@ export default function Gallery() {
         <div class="outer-grid">
           <div class="inner-grid">
             <a href={Ten}>
-            <img src={Ten}  alt="Class 10"/>
+            <img className="photo" src={Ten}  alt="Class 10"/>
             </a>
             <a href={Eight}>
             <img src={Eight}  alt="Class 8"/>

@@ -56,7 +56,7 @@
     }
  }
 
- img {
+ .photo {
      height: 470px;
      width: 100%;
      object-fit: cover;
