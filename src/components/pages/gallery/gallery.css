@@ -56,7 +56,7 @@
     }
  }
 
- .photo {
+ img {
      height: 470px;
      width: 100%;
      object-fit: cover;
@@ -64,6 +64,6 @@
 
  @media screen and (max-width: 800px) {
     img {
-        height: 200px;
+        height: 250px;
     }
  }
