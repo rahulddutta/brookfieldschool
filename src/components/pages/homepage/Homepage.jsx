@@ -375,9 +375,9 @@ export default function Homepage() {
               requested to fill in the details with caution. It is to be noted
               that admission is given on first come first served basis.
             </span>{" "}
-            <a className={classes.addSpan2} href="www.google.com">
+            <Link to="/admission" className={classes.addSpan2}>
               Enroll Today
-            </a>{" "}
+            </Link>{" "}
           </div>
         </Grid>
       </Grid>
