@@ -390,9 +390,9 @@ export default function Homepage() {
               that admission is given on first come first served basis.
             </span>{" "}
             <Button variant="outlined" className={classes.button}>
-            <Link to='/admission' className={classes.link}>
+            <div>
               Enroll Today
-            </Link>{" "}
+            </div>{" "}
             </Button>
             
           </div>
