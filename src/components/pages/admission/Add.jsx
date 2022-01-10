@@ -46,13 +46,13 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     justifyContent: "center",
     [theme.breakpoints.down("xs")]: {
-      marginTop: "30px",
+      marginTop: "10px",
     },
   },
   inputField: {
     width: "90%",
     marginTop: "10px",
-    marginLeft: "20px",
+    marginLeft: "0px",
     [theme.breakpoints.down("xs")]: {
       marginTop: "10px",
       marginLeft: "0px",
@@ -63,7 +63,7 @@ const useStyles = makeStyles((theme) => ({
     width: "550px",
     marginBottom: "0px",
     [theme.breakpoints.down("xs")]: {
-      width: "100%",
+      width: "320px",
     },
   },
   button: {

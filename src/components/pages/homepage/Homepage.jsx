@@ -1,4 +1,4 @@
-import { Grid, makeStyles } from "@material-ui/core";
+import { Button, Grid, makeStyles } from "@material-ui/core";
 import Hero from "../../hero/Hero";
 import Third from "../../images/third.jpg";
 import "./homepage.css";
@@ -317,6 +317,20 @@ const useStyles = makeStyles((theme) => ({
       marginTop:"50px"
     },
   },
+  button : {
+    color:"black",
+    width:"60%",
+    marginTop:"20px",
+    backgroundColor:"#e4f9ff",
+    fontFamily: "Merriweather, serif",
+    [theme.breakpoints.down("xs")]: {
+      width:"45%"
+    },
+  },
+  link : {
+    color:"black",
+    textDecoration:"none"
+  }
 }));
 
 export default function Homepage() {
@@ -375,9 +389,12 @@ export default function Homepage() {
               requested to fill in the details with caution. It is to be noted
               that admission is given on first come first served basis.
             </span>{" "}
-            <a className={classes.addSpan2} href="www.google.com">
+            <Button variant="outlined" className={classes.button}>
+            <Link to='/admission' className={classes.link}>
               Enroll Today
-            </a>{" "}
+            </Link>{" "}
+            </Button>
+            
           </div>
         </Grid>
       </Grid>
