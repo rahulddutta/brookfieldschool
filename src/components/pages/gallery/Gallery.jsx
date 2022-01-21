@@ -13,6 +13,13 @@ import One from "../../images/1.jpg";
 import Upper from "../../images/Upper.jpg";
 import Lower from "../../images/Lower.jpg";
 import Nursery from "../../images/Nursery.jpg";
+import Gro from "../../images/gro.jpg";
+import Me from "../../images/me.jpg";
+import Hiren from "../../images/hiran.jpg";
+import Par from "../../images/par.jpg";
+import Pri from "../../images/su.jpg";
+
+
 
 export default function Gallery() {
   return (
@@ -42,6 +49,12 @@ export default function Gallery() {
             <a href={Nursery}>
               <img src={Nursery} alt="Upper KG" />
             </a>
+            <a href={Gro}>
+              <img src={Gro} alt="Gro" />
+            </a>
+            <a href={Hiren}>
+              <img src={Hiren} alt="" />
+            </a>
           </div>
           <div class="inner-grid">
             <a href={Nine}>
@@ -61,6 +74,15 @@ export default function Gallery() {
             </a>
             <a href={Lower}>
               <img src={Lower} alt="Class 1" />
+            </a>
+            <a href={Me}>
+              <img src={Me} alt="" />
+            </a>
+            <a href={Par}>
+              <img src={Par} alt="" />
+            </a>
+            <a href={Pri}>
+              <img src={Pri} alt="" />
             </a>
           </div>
         </div>
