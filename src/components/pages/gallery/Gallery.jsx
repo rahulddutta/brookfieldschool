@@ -18,6 +18,7 @@ import Me from "../../images/me.jpg";
 import Hiren from "../../images/hiran.jpg";
 import Par from "../../images/par.jpg";
 import Pri from "../../images/su.jpg";
+import Teachers from "../../images/teachers.JPG"
 
 
 
@@ -83,6 +84,9 @@ export default function Gallery() {
             </a>
             <a href={Pri}>
               <img src={Pri} alt="" />
+            </a>
+            <a href={Teachers}>
+              <img src={Teachers} alt="" />
             </a>
           </div>
         </div>
