@@ -385,9 +385,10 @@ export default function Homepage() {
             Admission{" "}
             <span className={classes.span1}>
               {" "}
-              Admisson for Nursery will start on January 10 2022. Parents are
+              Admisson for Nursery will start on January 7 2023. Parents are
               requested to fill in the details with caution. It is to be noted
-              that admission is given on first come first served basis.
+              that admission is given on first come first served basis. Form link
+              will open at sharp 10:30 am
             </span>{" "}
             <Button variant="outlined" className={classes.button}>
             <div>
