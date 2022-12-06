@@ -61,7 +61,7 @@ export default function Topbar() {
   const [open, setOpen] = useState(false);
   return (
     <div>
-      <AppBar position="fixed" color="inherit">
+      <AppBar position="fixed" color="inherit" elevation={0}>
         <Toolbar>
           <IconButton
             className={classes.menuIcon}
