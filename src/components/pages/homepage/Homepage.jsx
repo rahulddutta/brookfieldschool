@@ -1,4 +1,4 @@
-import {Button, Grid, makeStyles } from "@material-ui/core";
+import { Grid, makeStyles } from "@material-ui/core";
 import Hero from "../../hero/Hero";
 import Third from "../../images/third.jpg";
 import "./homepage.css";
