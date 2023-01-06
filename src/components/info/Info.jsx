@@ -63,7 +63,7 @@ export default function Info() {
           <div className={classes.contact}>
             <div className={classes.title}>Join the Community</div>
             <div className={classes.details2}>
-              Facebook <span>Instagram</span> Twitter
+              Facebook <span>Instagram</span> Twitter's
             </div>
           </div>
         </Grid>
