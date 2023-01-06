@@ -83,7 +83,7 @@ export default function Add() {
 
     emailjs
       .sendForm(
-        "gmail",
+        "service_j27hfbf",
         "template_puzx58l",
         form.current,
         "user_c1F1DlVkf87LtWz4PbCqY"
