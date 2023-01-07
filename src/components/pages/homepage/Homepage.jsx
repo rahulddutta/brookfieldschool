@@ -1,4 +1,4 @@
-import { Grid, makeStyles } from "@material-ui/core";
+import {Button, Grid, makeStyles } from "@material-ui/core";
 import Hero from "../../hero/Hero";
 import Third from "../../images/third.jpg";
 import "./homepage.css";
@@ -391,13 +391,13 @@ export default function Homepage() {
               that admission is given on first come first served basis. Form link
               will open at sharp 10:30 am
             </span>{" "}
-            {/* <Link to='/admission'>
+             <Link to='/admission'>
             <Button variant="outlined" className={classes.button}>
             <div>
               Enroll Today
             </div>{" "}
             </Button>
-            </Link> */}
+            </Link> 
             
           </div>
         </Grid>
